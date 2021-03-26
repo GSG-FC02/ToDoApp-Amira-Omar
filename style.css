@@ -1,0 +1,171 @@
+/*General Style*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', 'sans-serif';
+}
+body{
+    background-color: rgba(0,0,0,0.1);
+}
+
+/*  container  */
+.container{
+    padding:10px;
+    width:375px;
+    margin:0 auto;
+}
+
+/*  header  */
+.header{
+    width: 375px;
+    height:200px;
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+
+#todo-title{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #FFF;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.to-do-title input::-webkit-input-placeholder { 
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/*  content  */
+.content{
+    width:375px;
+    height: 540px;
+    background-color: #FFF;
+    overflow: auto;
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.content ul{
+    padding:0;
+    margin:0;
+}
+.item{
+    width:375px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+}
+.item i.co{
+    position: absolute;
+    font-size: 25px;
+    padding-left:5px;
+    left:15px;
+    top:10px;
+}
+.item i.co:hover{
+    cursor: pointer;
+}
+.fa-check-circle{
+    color:#57C3D2;
+}
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left:50px;
+    top:5px;
+    background-color: #FFF;
+    max-width:285px;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+}
+.item i.de{
+    position: absolute;
+    font-size: 25px;
+    right:15px;
+    top:10px;
+    color:#e96d9d;
+}
+.item i.de:hover{
+    color:#011947;
+    cursor: pointer;
+}
+/*  add item  */
+.add-to-do{
+    position: relative;
+    width: 375px;
+    height:45px;
+    background-color: #FFF;
+    padding: 5px 0 5px 0;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+.add-to-do i{
+    position: absolute;
+    font-size: 35px;
+    color: #011947;
+    padding: 5px 0 5px 5px;
+}
+
+.add-to-do input{
+    position: absolute;
+    left: 55px;
+    height: 35px;
+    width: 295px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left:10px;
+    border: 3px solid #57C3D2;
+    border-radius: 10px;
+}
+.add-to-do input::-webkit-input-placeholder { 
+    color: #011947;
+    font-size: 20px;
+}
+.add-to-do input::-moz-placeholder { 
+    color: #011947;
+    font-size: 20px;
+}
+.add-to-do input:-ms-input-placeholder {
+    color: #011947;
+    font-size: 20px;
+}
+.add-to-do input:-moz-placeholder { 
+    color: #011947;
+    font-size: 20px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .fa-check-circle:before {
+    content: "\f058";
+  }
+
+  .fa-circle-thin:before {
+    content: "\f1db";
+    color: #011947;
+  }
+
+  .fa-circle:before {
+    content: "\f111";
+    color: #eee;
+  }
