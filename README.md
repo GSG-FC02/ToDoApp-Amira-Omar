@@ -1,9 +1,9 @@
-# ToDoApp-Amira-Omar
+# ToDoApp-Amira-Omar.
 
-##  Introduction
+##  Introduction:
 We designed a To-Do List using HTML, CSS, and Javascript
 
-## Team Members
+## Team Members:
 * Amira Alnajjar
 * Omar Alrabi
    
@@ -23,5 +23,9 @@ We designed a To-Do List using HTML, CSS, and Javascript
 2. Check the tasks you finish.
 3. Remove the tasks you decide not to do or for any reason you want.
 4. If you close the tab, refresh the page, check any tasks you finish, the tasks will not be removed.
+
+## Figma Link:
+-This link is provided to showcase a general overview of the project that both team members designed.
+https://www.figma.com/file/qNacVAwY9KQeOeeCtzT6L7/toDoList?node-id=0%3A1
 
 
