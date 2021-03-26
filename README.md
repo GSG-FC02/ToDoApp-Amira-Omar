@@ -28,4 +28,5 @@ We designed a To-Do List using HTML, CSS, and Javascript
 -This link is provided to showcase a general overview of the project that both team members designed.
 https://www.figma.com/file/qNacVAwY9KQeOeeCtzT6L7/toDoList?node-id=0%3A1
 
-
+## Live Link: 
+- https://gsg-fc02.github.io/ToDoApp-Amira-Omar/
