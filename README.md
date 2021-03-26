@@ -16,3 +16,12 @@ We designed a To-Do List using HTML, CSS, and Javascript
    5. Getting to work.
    6. Upload.
    7. Merge.
+   
+## User Experience:
+- As a user, you can:
+1. Being able to add tasks to the to-do list.
+2. Check the tasks you finish.
+3. Remove the tasks you decide not to do or for any reason you want.
+4. If you close the tab, refresh the page, check any tasks you finish, the tasks will not be removed.
+
+
